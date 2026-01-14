@@ -104,3 +104,55 @@ footer {
         font-size: 32px;
     }
 }
+/* SERVICIOS POR PLATAFORMA */
+#servicios {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.servicio {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 35px;
+    border-radius: 14px;
+    color: white;
+    transition: 0.3s;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+.servicio h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.servicio p {
+    font-size: 17px;
+    color: #f0f0f0;
+}
+
+/* COLORES DE MARCA */
+.xbox {
+    background: #107C10;
+}
+
+.playstation {
+    background: #003791;
+}
+
+.nintendo {
+    background: #E60012;
+}
+
+.otras {
+    background: #6A1B9A;
+}
+
+.pc {
+    background: #1c1c1c;
+    border: 1px solid #555;
+}
+
+/* HOVER */
+.servicio:hover {
+    transform: translateY(-6px);
+}
